@@ -1,0 +1,8 @@
+#Ractオブジェクトを作成して、プロパティにアクセスする
+import pygame
+
+r = pygame.Rect(30,20,60,40)
+print(r.center)
+print(r.bottomleft)
+print(r.width)
+print(r.bottom)
